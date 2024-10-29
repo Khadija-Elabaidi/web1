@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liens vers des recettes marocaines</title>
+</head>
+<body>
+
+    <h1>Gout Marocaine</h1>
+    
+    <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="Menu.html">Menu</a></li>
+        <li><a href="Réserv.html">Réservation</a></li>
+        
+    </ul>
+
+
+
+
+    <h2>Réservation</h2>
+    <p>Merci de soumettre les détails de votre réservation et nous vous contacterons pour confirmer.</p>
+
+    <form action="traitement_reservation.php" method="post">
+        <label for="nom">Votre nom (obligatoire):</label><br>
+        <input type="text" id="nom" name="nom" required><br><br>
+
+        <label for="telephone">Téléphone (obligatoire):</label><br>
+        <input type="tel" id="telephone" name="telephone" required><br><br>
+
+        <label for="email">Votre email (obligatoire):</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="personnes">Nombre de personnes (obligatoire):</label><br>
+        <input type="number" id="personnes" name="personnes" required min="1"><br><br>
+
+        <label for="date">Date (obligatoire):</label><br>
+        <input type="date" id="date" name="date" required><br><br>
+
+        <input type="submit" value="Envoyer">
+    </form>
+
+
+
+    <h2>Contactez-nous</h2>
+    
+    <p>Adresse : 6, rue Mohammed 5 – Tilila, 10000 Agadir, Maroc</p>
+    <p>Téléphone : <a href="tel:+212 500 00 00 99">+212 500 00 00 99</a></p>
+    
+    <p>Emails :</p>
+    <ul>
+        <li><a href="mailto:contact@Goût_Marocain.ma">contact@Goût_Marocain.ma</a></li>
+        <li><a href="mailto:reservation@Goût_Marocain.ma">reservation@Goût_Marocain.ma</a></li>
+    </ul>
+
+</body>
+</html>
